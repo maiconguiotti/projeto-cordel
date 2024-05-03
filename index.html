@@ -16,7 +16,7 @@
         }
 
         :root{
-            --fonte1: 'Verdana, Geneva, Tahoma, sans-serif';
+            --fonte1: Verdana, Geneva, Tahoma, sans-serif;
             --fonte2: 'Passion One', 'cursive';
             --fonte3: 'Sriracha', 'cursive';
         }
@@ -67,34 +67,48 @@
         background-image: url('imagens/background001.jpg');
         background-size: 100% 100%;
 
+       
     }
 
     #caixa{
         background-color: rgba(0, 0, 0, 0.416);
         color: white;
-        height: 450px;
+        height: 400px;
         width: 400px;
         margin: 10px;
-        padding: 10px;
+        padding: 10px
+       
+        
     }
 
     #esp{
         background-image: url('imagens/background002.jpg');
         background-size: 100% 100%;
         
-
+    
     }
 
     #cial{
         background-color: rgba(0, 0, 0, 0.416);
         color: white;
-        height: 450px;
+        height: 400px;
         width: 400px;
         margin: 10px;
         padding: 10px;
+        
 
     }
 
+    footer{
+        background-color: black;
+        color: white;
+    }
+
+    footer>p{
+        text-align: center;
+        padding: 10px;
+        font-family: var(--fonte1)
+    }
     </style>
 </head>
 <body>
@@ -170,7 +184,7 @@
         </section>
     </main>
     <footer>
-        <p>Site criado por Maicon Guiotti para o CursoemVideo</p>
+        <p>Site criado por <strong>Maicon Guiotti</strong> para o <a href="https://www.cursoemvideo.com/">CursoemVideo</a></p>
     </footer>
 </body>
 </html>
